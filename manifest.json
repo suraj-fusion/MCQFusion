@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "MCQ Fusion",
+  "version": "1.0",
+  "description": "Test your knowledge on YouTube videos with auto-generated MCQs.",
+  "permissions": [
+  "tabs",
+  "https://youtubequizapi.suraj-fusion.workers.dev/"
+],
+"host_permissions": [
+  "https://youtubequizapi.suraj-fusion.workers.dev/"
+],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon":"logo.png"
+  }
+}
